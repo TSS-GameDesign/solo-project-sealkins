@@ -1,0 +1,13 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"oPlayer","order":12,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"oSolidWall","order":16,"path":"objects/oSolidWall/oSolidWall.yy",},
+    {"name":"oWall","order":14,"path":"objects/oWall/oWall.yy",},
+    {"name":"sPlayer","order":11,"path":"sprites/sPlayer/sPlayer.yy",},
+    {"name":"sSolidWall","order":15,"path":"sprites/sSolidWall/sSolidWall.yy",},
+    {"name":"sWall","order":13,"path":"sprites/sWall/sWall.yy",},
+  ],
+}
