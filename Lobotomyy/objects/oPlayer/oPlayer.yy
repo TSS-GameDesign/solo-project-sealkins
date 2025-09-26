@@ -9,8 +9,8 @@
   "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Lobotomyy",
-    "path":"Lobotomyy.yyp",
+    "name":"Player",
+    "path":"folders/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayerStand",
-    "path":"sprites/sPlayerStand/sPlayerStand.yy",
+    "name":"sWalkFront",
+    "path":"sprites/sWalkFront/sWalkFront.yy",
   },
   "spriteMaskId":null,
   "visible":true,

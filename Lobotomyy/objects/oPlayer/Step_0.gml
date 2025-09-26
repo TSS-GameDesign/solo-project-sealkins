@@ -7,6 +7,7 @@ var downKey = keyboard_check( ord( "S" ) );
 
 
 //player movement
+#region
 	//get the direction
 	var _horizKey = rightKey - leftKey; 
 	var _vertKey = downKey - upKey;
@@ -35,4 +36,12 @@ var downKey = keyboard_check( ord( "S" ) );
 	//move the player
 	x += xspd;
 	y += yspd;
+#endregion
 	
+//sprite control
+	//make sure the player is facing the correct direction
+	face = round( moveDir/90 );
+	if face == 4 { face = 0; };
+	
+	//set the player sprite
+	sprite_index = sprite[face];

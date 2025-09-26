@@ -1,18 +1,18 @@
 {
   "FolderOrderSettings":[
+    {"name":"Player","order":23,"path":"folders/Player.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
     {"name":"sprites","order":17,"path":"folders/sprites.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"oPlayer","order":12,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"oPlayer","order":4,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"oSolidWall","order":16,"path":"objects/oSolidWall/oSolidWall.yy",},
     {"name":"oWall","order":14,"path":"objects/oWall/oWall.yy",},
     {"name":"Sprite6","order":20,"path":"sprites/Sprite6/Sprite6.yy",},
     {"name":"sSolidWall","order":1,"path":"sprites/sSolidWall/sSolidWall.yy",},
-    {"name":"sWalkBack","order":19,"path":"sprites/sWalkBack/sWalkBack.yy",},
-    {"name":"sWalkFront","order":18,"path":"sprites/sWalkFront/sWalkFront.yy",},
-    {"name":"sWalkLeft","order":21,"path":"sprites/sWalkLeft/sWalkLeft.yy",},
-    {"name":"sWalkRight","order":22,"path":"sprites/sWalkRight/sWalkRight.yy",},
+    {"name":"sWalkFront","order":1,"path":"sprites/sWalkFront/sWalkFront.yy",},
+    {"name":"sWalkLeft","order":2,"path":"sprites/sWalkLeft/sWalkLeft.yy",},
+    {"name":"sWalkRight","order":3,"path":"sprites/sWalkRight/sWalkRight.yy",},
     {"name":"sWall","order":2,"path":"sprites/sWall/sWall.yy",},
   ],
 }
