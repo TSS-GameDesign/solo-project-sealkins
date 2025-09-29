@@ -36,12 +36,31 @@ var downKey = keyboard_check( ord( "S" ) );
 	//move the player
 	x += xspd;
 	y += yspd;
+	
+	//depth
+	depth = -bbox_bottom;
+	
 #endregion
+
+//player aiming
+	centerY = y + centerYOffset;
+	
+	//aim
+	aimDir = point_direction( x, centerY, mouse_x, mouse_y );
 	
 //sprite control
+#region
 	//make sure the player is facing the correct direction
-	face = round( moveDir/90 );
+	face = round( aimDir/90 );
 	if face == 4 { face = 0; };
 	
+	//stop animate
+	if xspd == 0 && yspd == 0
+	{
+		image_index = 0
+	}
+	
 	//set the player sprite
+	mask_index = sWalkFront;
 	sprite_index = sprite[face];
+#endregion
