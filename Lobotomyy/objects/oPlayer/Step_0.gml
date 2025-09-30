@@ -3,6 +3,7 @@ var rightKey = keyboard_check( ord( "D" ) );
 var leftKey = keyboard_check( ord( "A" ) );
 var upKey = keyboard_check( ord( "W" ) );
 var downKey = keyboard_check( ord( "S" ) );
+var shootKey = mouse_check_button( mb_left );
 
 
 
@@ -64,3 +65,17 @@ var downKey = keyboard_check( ord( "S" ) );
 	mask_index = sWalkFront;
 	sprite_index = sprite[face];
 #endregion
+
+//shoot the weapon
+if shootKey
+{
+	//create the bullet
+	var _bulletInst = instance_create_depth( x, centerY, depth-100, bulletObj );
+
+	//change bullet dir
+	with( _bulletInst )
+	{
+		dir = other.aimDir;
+	}
+
+}

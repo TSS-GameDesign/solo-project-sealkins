@@ -16,4 +16,6 @@
 	sprite[1] = sWalkBack;
 	sprite[2] = sWalkLeft;
 	sprite[3] = sWalkFront;
-
+	
+//weapn info
+	bulletObj = oWaterBullet;
