@@ -19,3 +19,4 @@
 	
 //weapn info
 	bulletObj = oWaterBullet;
+	weaponLength = sprite_get_bbox_right( sWaterGun ) - sprite_get_xoffset( sWaterGun );
