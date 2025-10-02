@@ -18,5 +18,7 @@
 	sprite[3] = sWalkFront;
 	
 //weapn info
+	shootTimer = 0;
+	shootCooldown = 9;
 	bulletObj = oWaterBullet;
-	weaponLength = sprite_get_bbox_right( sWaterGun ) - sprite_get_xoffset( sWaterGun );
+	weaponLength = sprite_get_bbox_right( sWaterGun );

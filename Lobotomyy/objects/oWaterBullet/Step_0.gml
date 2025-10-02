@@ -22,5 +22,5 @@
 	//bullet out of range
 	if point_distance( xstart, ystart, x, y ) > maxDist
 	{
-	destroy = true
+		destroy = true;
 	}

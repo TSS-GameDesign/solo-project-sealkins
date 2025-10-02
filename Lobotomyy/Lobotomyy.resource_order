@@ -6,10 +6,12 @@
   ],
   "ResourceOrderSettings":[
     {"name":"oPlayer","order":4,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"oPossum","order":28,"path":"objects/oPossum/oPossum.yy",},
     {"name":"oSolidWall","order":16,"path":"objects/oSolidWall/oSolidWall.yy",},
     {"name":"oWall","order":14,"path":"objects/oWall/oWall.yy",},
     {"name":"oWaterBullet","order":26,"path":"objects/oWaterBullet/oWaterBullet.yy",},
     {"name":"customFunctions","order":24,"path":"scripts/customFunctions/customFunctions.yy",},
+    {"name":"sPossum","order":27,"path":"sprites/sPossum/sPossum.yy",},
     {"name":"sSolidWall","order":1,"path":"sprites/sSolidWall/sSolidWall.yy",},
     {"name":"sWalkFront","order":1,"path":"sprites/sWalkFront/sWalkFront.yy",},
     {"name":"sWalkLeft","order":2,"path":"sprites/sWalkLeft/sWalkLeft.yy",},

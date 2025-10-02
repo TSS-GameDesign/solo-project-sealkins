@@ -67,8 +67,13 @@ var shootKey = mouse_check_button( mb_left );
 #endregion
 
 //shoot the weapon
-if shootKey
+if shootTimer > 0 { shootTimer -= 1; }
+if shootKey && shootTimer <= 0 
 {
+	//reset the timer
+	shootTimer = shootCooldown;
+	
+//shooting
 	//create the bullet
 	var _xOffset = lengthdir_x( weaponLength + weaponOffsetDist, aimDir );
 	var _yOffset = lengthdir_y( weaponLength + weaponOffsetDist, aimDir );
