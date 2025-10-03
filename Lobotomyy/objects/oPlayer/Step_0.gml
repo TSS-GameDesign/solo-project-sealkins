@@ -4,6 +4,7 @@ var leftKey = keyboard_check( ord( "A" ) );
 var upKey = keyboard_check( ord( "W" ) );
 var downKey = keyboard_check( ord( "S" ) );
 var shootKey = mouse_check_button( mb_left );
+var keyGrenade = keyboard_check_pressed( ord( "E" ));
 
 
 
@@ -85,4 +86,10 @@ if shootKey && shootTimer <= 0
 		dir = other.aimDir;
 	}
 
+}
+
+//grenade
+if (keyGrenade)
+{
+	instance_create_depth( x, y, -100, oPossum)
 }
