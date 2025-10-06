@@ -19,6 +19,17 @@
 	
 //weapn info
 	shootTimer = 0;
-	shootCooldown = 9;
+	shootCooldown = 0;
+	
 	bulletObj = oWaterBullet;
-	weaponLength = sprite_get_bbox_right( sWaterGun );
+	
+	slowGun = {
+		
+		sprite : sWaterGun,
+		length : sprite_get_bbox_right( sWaterGun ),
+		bulletObj : oWaterBullet,
+		cooldown : 30,
+		
+	}
+	
+	weapon = slowGun;

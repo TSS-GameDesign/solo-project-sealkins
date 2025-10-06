@@ -72,13 +72,13 @@ if shootTimer > 0 { shootTimer -= 1; }
 if shootKey && shootTimer <= 0 
 {
 	//reset the timer
-	shootTimer = shootCooldown;
+	shootTimer = weapon.cooldown;
 	
 //shooting
 	//create the bullet
-	var _xOffset = lengthdir_x( weaponLength + weaponOffsetDist, aimDir );
-	var _yOffset = lengthdir_y( weaponLength + weaponOffsetDist, aimDir );
-	var _bulletInst = instance_create_depth( x + _xOffset, centerY + _yOffset, depth-100, bulletObj );
+	var _xOffset = lengthdir_x( weapon.length + weaponOffsetDist, aimDir );
+	var _yOffset = lengthdir_y( weapon.length + weaponOffsetDist, aimDir );
+	var _bulletInst = instance_create_depth( x + _xOffset, centerY + _yOffset, depth-100, weapon.bulletObj );
 
 	//change bullet dir
 	with( _bulletInst )
