@@ -23,7 +23,7 @@
 	
 	bulletObj = oWaterBullet;
 	
-	slowGun = {
+	waterGun = {
 		
 		sprite : sWaterGun,
 		length : sprite_get_bbox_right( sWaterGun ),
@@ -32,4 +32,4 @@
 		
 	}
 	
-	weapon = slowGun;
+	weapon = waterGun;

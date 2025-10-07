@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"weaponCreation",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"weaponCreation",
+  "parent":{
+    "name":"Lobotomyy",
+    "path":"Lobotomyy.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

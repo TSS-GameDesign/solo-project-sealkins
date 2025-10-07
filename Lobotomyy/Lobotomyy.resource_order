@@ -11,6 +11,7 @@
     {"name":"oWall","order":5,"path":"objects/oWall/oWall.yy",},
     {"name":"oWaterBullet","order":2,"path":"objects/oWaterBullet/oWaterBullet.yy",},
     {"name":"customFunctions","order":4,"path":"scripts/customFunctions/customFunctions.yy",},
+    {"name":"weaponCreation","order":5,"path":"scripts/weaponCreation/weaponCreation.yy",},
     {"name":"sConfetti","order":4,"path":"sprites/sConfetti/sConfetti.yy",},
     {"name":"sPossum","order":6,"path":"sprites/sPossum/sPossum.yy",},
     {"name":"sSolidWall","order":1,"path":"sprites/sSolidWall/sSolidWall.yy",},
