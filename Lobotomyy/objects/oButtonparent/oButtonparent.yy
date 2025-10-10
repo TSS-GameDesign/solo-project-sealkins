@@ -9,8 +9,8 @@
   "name":"oButtonparent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Lobotomyy",
-    "path":"Lobotomyy.yyp",
+    "name":"Object",
+    "path":"folders/Object.yy",
   },
   "parentObjectId":null,
   "persistent":false,

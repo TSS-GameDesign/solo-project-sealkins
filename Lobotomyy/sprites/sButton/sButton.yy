@@ -49,8 +49,8 @@
   },
   "origin":9,
   "parent":{
-    "name":"Lobotomyy",
-    "path":"Lobotomyy.yyp",
+    "name":"sprites",
+    "path":"folders/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
