@@ -1,0 +1,1 @@
+global.lastRoom = 0

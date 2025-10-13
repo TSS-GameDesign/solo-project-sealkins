@@ -6,17 +6,12 @@
   ],
   "managed":true,
   "name":"oButtonPlay",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtonparent","path":"objects/oButtonparent/oButtonparent.yy",},"propertyId":{"name":"bText","path":"objects/oButtonparent/oButtonparent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Play",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Object",
     "path":"folders/Object.yy",
   },
-  "parentObjectId":{
-    "name":"oButtonparent",
-    "path":"objects/oButtonparent/oButtonparent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

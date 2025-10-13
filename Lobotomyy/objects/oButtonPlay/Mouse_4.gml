@@ -1,4 +1,3 @@
-// Inherit the parent event
-event_inherited();
-
-room_goto( rmStart );
+if position_meeting(mouse_x, mouse_y, oButtonPlay){
+	room_goto(rmGame)
+}
