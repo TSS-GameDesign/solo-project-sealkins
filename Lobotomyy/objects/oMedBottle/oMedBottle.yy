@@ -1,19 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oMusicManager",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":5,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oMedBottle",
+  "eventList":[],
   "managed":true,
-  "name":"oMusicManager",
+  "name":"oMedBottle",
   "overriddenProperties":[],
   "parent":{
-    "name":"Lobotomyy",
-    "path":"Lobotomyy.yyp",
+    "name":"Object",
+    "path":"folders/Object.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite19",
+    "path":"sprites/Sprite19/Sprite19.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
