@@ -37,6 +37,7 @@
     {"name":"Sprite17","order":12,"path":"sprites/Sprite17/Sprite17.yy",},
     {"name":"Sprite18","order":13,"path":"sprites/Sprite18/Sprite18.yy",},
     {"name":"Sprite19","order":14,"path":"sprites/Sprite19/Sprite19.yy",},
+    {"name":"Sprite20","order":10,"path":"sprites/Sprite20/Sprite20.yy",},
     {"name":"sSolidWall","order":1,"path":"sprites/sSolidWall/sSolidWall.yy",},
     {"name":"sWalkFront","order":1,"path":"sprites/sWalkFront/sWalkFront.yy",},
     {"name":"sWalkLeft","order":2,"path":"sprites/sWalkLeft/sWalkLeft.yy",},
