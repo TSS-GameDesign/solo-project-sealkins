@@ -19,9 +19,6 @@
 	
 //weapn info
 	shootTimer = 0;
-	shootCooldown = 0;
-	
-	bulletObj = oWaterBullet;
 	
 	waterGun = {
 		
@@ -31,5 +28,25 @@
 		cooldown : 30,
 		
 	}
+	
+	remoteGun = {
+		
+		sprite : sRemoteGun,
+		length : sprite_get_bbox_right( sRemoteGun ),
+		bulletObj : oLaser,
+		cooldown : 60,
+		
+	}
+	
+	lotionGun = {
+		
+		sprite : sLotionGun,
+		length : sprite_get_bbox_right( sLotionGun ),
+		bulletObj : sLotionDrop,
+		cooldown : 60,
+		
+	
+	}
+	
 	
 	weapon = waterGun;

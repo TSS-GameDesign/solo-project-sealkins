@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sButtonPlay",
-    "path":"sprites/sButtonPlay/sButtonPlay.yy",
+    "name":"sStartButton",
+    "path":"sprites/sStartButton/sStartButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sButtonHelp",
-    "path":"sprites/sButtonHelp/sButtonHelp.yy",
+    "name":"sHelpButton",
+    "path":"sprites/sHelpButton/sHelpButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sButtonQuit",
-    "path":"sprites/sButtonQuit/sButtonQuit.yy",
+    "name":"sQuitButton",
+    "path":"sprites/sQuitButton/sQuitButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"weaponCreation",
   "parent":{
-    "name":"Ow, My Head Hurt",
-    "path":"Ow, My Head Hurt.yyp",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
