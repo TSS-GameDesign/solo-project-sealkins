@@ -12,7 +12,10 @@
     "name":"Object",
     "path":"folders/Object.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oWaterBullet",
+    "path":"objects/oWaterBullet/oWaterBullet.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

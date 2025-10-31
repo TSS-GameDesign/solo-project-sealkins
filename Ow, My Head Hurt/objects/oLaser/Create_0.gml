@@ -1,10 +1,6 @@
-dir = 0;
-spd = 5;
-xspd = 0;
-yspd = 0;
+// Inherit the parent event
+event_inherited();
 
-
-
-//cleanup
-maxDist = 240;
-destroy = false;
+//chnage properties 
+spd = 8;
+maxDist = 350;

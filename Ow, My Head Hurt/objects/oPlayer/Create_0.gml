@@ -20,33 +20,17 @@
 //weapn info
 	shootTimer = 0;
 	
-	waterGun = {
-		
-		sprite : sWaterGun,
-		length : sprite_get_bbox_right( sWaterGun ),
-		bulletObj : oWaterBullet,
-		cooldown : 30,
-		
-	}
+	waterGun = new create_weapon(
+	sWaterGun,
+	sprite_get_bbox_right( sWaterGun ) - sprite_get_xoffset( sWaterGun ),
+	sWaterBullet,
+	30 )
 	
-	remoteGun = {
-		
-		sprite : sRemoteGun,
-		length : sprite_get_bbox_right( sRemoteGun ),
-		bulletObj : oLaser,
-		cooldown : 60,
-		
-	}
+	remoteGun = new create_weapon(
+	sRemoteGun,
+	sprite_get_bbox_right( sRemoteGun ) - sprite_get_xoffset( sRemoteGun ),
+	sLaser,
+	40 )
 	
-	lotionGun = {
-		
-		sprite : sLotionGun,
-		length : sprite_get_bbox_right( sLotionGun ),
-		bulletObj : sLotionDrop,
-		cooldown : 60,
-		
-	
-	}
-	
-	
+
 	weapon = waterGun;

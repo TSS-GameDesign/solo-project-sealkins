@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings":[
-    {"name":"Object","order":6,"path":"folders/Object.yy",},
-    {"name":"Player","order":5,"path":"folders/Player.yy",},
+    {"name":"Object","order":5,"path":"folders/Object.yy",},
+    {"name":"Player","order":4,"path":"folders/Player.yy",},
     {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
     {"name":"Sounds","order":1,"path":"folders/Sounds.yy",},
     {"name":"Sprite","order":3,"path":"folders/Sprite.yy",},
@@ -48,7 +48,7 @@
     {"name":"Sprite31","order":26,"path":"sprites/Sprite31/Sprite31.yy",},
     {"name":"Sprite32","order":28,"path":"sprites/Sprite32/Sprite32.yy",},
     {"name":"Sprite33","order":27,"path":"sprites/Sprite33/Sprite33.yy",},
-    {"name":"Sprite34","order":7,"path":"sprites/Sprite34/Sprite34.yy",},
+    {"name":"Sprite34","order":29,"path":"sprites/Sprite34/Sprite34.yy",},
     {"name":"sQuitButton","order":24,"path":"sprites/sQuitButton/sQuitButton.yy",},
     {"name":"sRemoteGun","order":16,"path":"sprites/sRemoteGun/sRemoteGun.yy",},
     {"name":"sSolidWall","order":1,"path":"sprites/sSolidWall/sSolidWall.yy",},
