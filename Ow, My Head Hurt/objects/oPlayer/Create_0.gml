@@ -19,18 +19,10 @@
 	
 //weapn info
 	shootTimer = 0;
-	
-	waterGun = new create_weapon(
-	sWaterGun,
-	sprite_get_bbox_right( sWaterGun ) - sprite_get_xoffset( sWaterGun ),
-	sWaterBullet,
-	30 )
-	
-	remoteGun = new create_weapon(
-	sRemoteGun,
-	sprite_get_bbox_right( sRemoteGun ) - sprite_get_xoffset( sRemoteGun ),
-	sLaser,
-	40 )
-	
 
-	weapon = waterGun;
+//add weapons to weapon inventory 
+array_push( global.PlayerWeapons, global.WeaponList.waterGun );
+array_push( global.PlayerWeapons, global.WeaponList.remoteGun );
+
+	selectedWeapon = 0;
+	weapon = global.PlayerWeapons[selectedWeapon]; 
