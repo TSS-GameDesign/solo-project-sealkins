@@ -21,8 +21,8 @@
 	shootTimer = 0;
 
 //add weapons to weapon inventory 
-array_push( global.PlayerWeapons, global.WeaponList.waterGun );
-array_push( global.PlayerWeapons, global.WeaponList.remoteGun );
+array_push( global.PlayerWeapons, global.WeaponList.waterGun, global.WeaponList.remoteGun, global.WeaponList.toasterGun );
 
-	selectedWeapon = 0;
+
+	selectedWeapon = 2;
 	weapon = global.PlayerWeapons[selectedWeapon]; 

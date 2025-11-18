@@ -10,8 +10,8 @@
   "name":"oDialog",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ow, My Head Hurt",
-    "path":"Ow, My Head Hurt.yyp",
+    "name":"Object",
+    "path":"folders/Object.yy",
   },
   "parentObjectId":null,
   "persistent":false,

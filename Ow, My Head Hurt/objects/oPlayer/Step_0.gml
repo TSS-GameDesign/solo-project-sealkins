@@ -89,14 +89,30 @@ if shootKey && shootTimer <= 0
 	//create the bullet
 	var _xOffset = lengthdir_x( weapon.length + weaponOffsetDist, aimDir );
 	var _yOffset = lengthdir_y( weapon.length + weaponOffsetDist, aimDir );
-	var _bulletInst = instance_create_depth( x + _xOffset, centerY + _yOffset, depth-100, weapon.bulletObj );
+	
+	var _spread = weapon.spread;
+	var _spreadDiv = _spread / max( weapon.bulletNum-1, 1 ) ;
+	
+		//create right number of bullets 
+		for ( var i = 0; i < weapon.bulletNum; i++ )
+		{
+		
+		var _bulletInst = instance_create_depth( x + _xOffset, centerY + _yOffset, depth-100, weapon.bulletObj );
 
 	//change bullet dir
 	with( _bulletInst )
 	{
-		dir = other.aimDir;
+		dir = other.aimDir - _spread/2 + _spreadDiv*i ;
+		
+		//turn bullet to correct direction
+		if dirFix == true
+		{
+			image_angle = dir;
+		}
 	}
 
+
+		}
 }
 
 //possum renade
