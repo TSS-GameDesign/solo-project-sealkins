@@ -1,3 +1,6 @@
+//check dialog existance
+if ( instance_exists( oDialog )) exit;
+
 //take the damage
 if place_meeting( x, y, oDamageEnemy )
 {

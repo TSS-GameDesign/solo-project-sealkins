@@ -1,4 +1,6 @@
 
+//check dialog existance
+if ( instance_exists( oDialog )) exit;
 
 //chase the player
 	//get players direction 

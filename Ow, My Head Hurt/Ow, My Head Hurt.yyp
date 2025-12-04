@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Enemy","folderPath":"folders/Enemy.yy","name":"Enemy","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Dialog","folderPath":"folders/Dialog.yy","name":"Dialog","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Object","folderPath":"folders/Object.yy","name":"Object","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -73,7 +74,6 @@
     {"id":{"name":"MenuBg","path":"sprites/MenuBg/MenuBg.yy",},},
     {"id":{"name":"sBread","path":"sprites/sBread/sBread.yy",},},
     {"id":{"name":"sConfetti","path":"sprites/sConfetti/sConfetti.yy",},},
-    {"id":{"name":"sEye","path":"sprites/sEye/sEye.yy",},},
     {"id":{"name":"sHelpButton","path":"sprites/sHelpButton/sHelpButton.yy",},},
     {"id":{"name":"sLaser","path":"sprites/sLaser/sLaser.yy",},},
     {"id":{"name":"sLotionDrop","path":"sprites/sLotionDrop/sLotionDrop.yy",},},
@@ -102,6 +102,7 @@
     {"id":{"name":"sSolidWall","path":"sprites/sSolidWall/sSolidWall.yy",},},
     {"id":{"name":"sStartButton","path":"sprites/sStartButton/sStartButton.yy",},},
     {"id":{"name":"sTeddy","path":"sprites/sTeddy/sTeddy.yy",},},
+    {"id":{"name":"sTextbox","path":"sprites/sTextbox/sTextbox.yy",},},
     {"id":{"name":"sToaster","path":"sprites/sToaster/sToaster.yy",},},
     {"id":{"name":"sWalkBack","path":"sprites/sWalkBack/sWalkBack.yy",},},
     {"id":{"name":"sWalkFront","path":"sprites/sWalkFront/sWalkFront.yy",},},

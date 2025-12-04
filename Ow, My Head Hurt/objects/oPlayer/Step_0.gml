@@ -1,13 +1,8 @@
+//check dialoge existance
+if ( instance_exists( oDialog )) exit;
+
 //dialogue
-if ( keyboard_check_pressed( vk_space ))
-{
-	createDialogue([
-	{
-		name: "Test dialog!",
-		msg: "It works"
-	}
-	])
-}
+
 
 //input movement
 var rightKey = keyboard_check( ord( "D" ) );
