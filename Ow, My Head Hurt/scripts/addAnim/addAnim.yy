@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"addAnim",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"addAnim",
+  "parent":{
+    "name":"Cutscene",
+    "path":"folders/Cutscene.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

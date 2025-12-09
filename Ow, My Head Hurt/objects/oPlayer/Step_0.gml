@@ -35,7 +35,7 @@ var keyGrenade = keyboard_check_pressed( ord( "E" ));
 	{
 		xspd = 0;
 	}
-	if place_meeting( x, y + yspd, oSolidWall )
+	if place_meeting( x, y + yspd, oWall )
 	{
 		yspd = 0;
 	}
